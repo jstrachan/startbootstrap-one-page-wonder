@@ -4,4 +4,5 @@ EXPOSE 8080
 WORKDIR /usr/src/app
 COPY . .
 RUN npm install
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
+CMD ["cat"]
