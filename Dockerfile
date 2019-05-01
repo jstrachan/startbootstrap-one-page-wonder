@@ -1,4 +1,4 @@
-FROM node:9-slim
+FROM mkenney/npm:node-9-debian
 ENV PORT 8080
 EXPOSE 8080
 WORKDIR /usr/src/app
